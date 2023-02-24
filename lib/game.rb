@@ -1,5 +1,4 @@
 class Game
-
   TOTAL_ERRORS_ALLOWED = 7
 
   def self.normalize(letter)
@@ -62,6 +61,4 @@ class Game
   def word
     @letters.join
   end
-
 end
-
